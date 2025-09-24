@@ -74,9 +74,9 @@ java -cp out edu.ccrm.cli.Main
    javac -version
    ```
 
-   
+   <img width="581" height="221" alt="1" src="https://github.com/user-attachments/assets/44085355-a5d0-4d63-9826-4ac3add6962b" />
 
-📸 *[Insert screenshot of `java -version` output]*  
+
 
 ### Setup Eclipse IDE
 1. Download Eclipse IDE (Java Developers).  
