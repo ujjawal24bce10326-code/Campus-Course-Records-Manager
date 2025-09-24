@@ -2,15 +2,15 @@
 
 # 📚 Campus Course & Records Manager (CCRM)
 
-A **console-based Java SE application** to manage Students, Courses, Enrollments, Grades, and Records for an institute.  
-This project demonstrates **OOP concepts, advanced Java features, and design patterns** as part of the Programming in Java project.
+A **console-based Java SE application** to help manage Students,their  Courses, Course Enrollments, Grades, and Records for the institute.  
+This project demonstrates **OOPs concepts, advanced Java feature, and design patterns** as part of the Programming in Java project given by Vit .
 
 ---
 
 ## 📖 Project Overview
 The **Campus Course & Records Manager (CCRM)** allows:
-- Student management (create, update, deactivate, transcripts)  
-- Course management (create, assign instructors, search/filter)  
+- Student management :-creation ,updation ,deactivation and transcription 
+- Course management :- create, assign instructors, search/filter  
 - Enrollment & grading (business rules, GPA computation)  
 - File utilities (import/export CSV, backups, recursive folder utilities)  
 - CLI workflow with a menu-driven interface  
@@ -34,8 +34,8 @@ java -cp out edu.ccrm.cli.Main
 ---
 
 ## 🕰️ Evolution of Java (short timeline)
-- **1995** → Java 1.0 released (Sun Microsystems)  
-- **1998** → Java 2 (J2SE, J2EE, J2ME introduced)  
+- **1995** → Java 1.0 released by Sun Microsystems  
+- **1998** → Java 2  :- J2SE, J2EE, J2ME were introduced that establiseh Java as a standard for large-scale enterprise systems. 
 - **2004** → Java 5 (Generics, Annotations, Enums, Autoboxing)  
 - **2011** → Java 7 (NIO.2, try-with-resources)  
 - **2014** → Java 8 (Streams API, Lambdas, Date/Time API)  
@@ -53,13 +53,22 @@ java -cp out edu.ccrm.cli.Main
 | Use Cases      | IoT, feature phones, small devices | Desktop apps, console apps, utilities | Web apps, enterprise backends, cloud |
 
 ---
-
-## ⚙️ JDK vs JRE vs JVM
-- JDK (Java Development Kit)** → Contains compiler (`javac`), debugger, libraries, and JRE. Needed for development.  
-- JRE (Java Runtime Environment)** → Contains JVM + libraries required to run Java programs. No compiler.  
-- JVM (Java Virtual Machine)** → Abstract machine that executes bytecode. Platform-independent execution.  
-
----
+1. JVM (Java Virtual Machine)
+Purpose: The JVM is the heart of Java, responsible for executing Java bytecode. 
+Functionality: It acts as an interpreter, translating the compiled bytecode into machine-readable code for the specific operating system and hardware, making Java platform-independent. 
+2. JRE (Java Runtime Environment)
+Purpose: To provide an environment for running Java applications. 
+Contents: It includes the JVM, core Java libraries, and other supporting files. 
+Users: End-users who only want to run Java programs, not develop them. 
+3. JDK (Java Development Kit)
+Purpose: The complete toolkit for developing, compiling, and running Java applications. 
+Contents: It contains everything in the JRE (JVM and libraries) plus development tools such as a compiler (javac), debugger (jdb), and other utilities. 
+Users: Java developers who need to write and build new Java applications.
+ 
+In summary: 
+JVM: is the runtime engine.
+JRE: contains the JVM and essential libraries to run Java applications.
+JDK: contains the JRE and adds tools needed to develop Java applications.
 
 ## 🖥️ Install & Setup (Windows)
 
@@ -67,12 +76,22 @@ java -cp out edu.ccrm.cli.Main
 1. Download JDK 17+ from [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html) or [Adoptium](https://adoptium.net/).  
 2. Run installer and set environment variables:  
    - `JAVA_HOME = C:\Program Files\Java\jdk-17`  
-   - Add `%JAVA_HOME%\bin` to PATH  
+   - Add `%JAVA_HOME%\bin` to PATH
+
+
+![jdk](https://github.com/user-attachments/assets/722f8473-5d99-47ef-bec1-0e98cb3e742a)
+
+  
+<img width="1000" height="618" alt="Step2SettingEnvironmentVariable" src="https://github.com/user-attachments/assets/c4c59625-11be-4751-ba1a-db0544a0fdc0" />
+
+
+   
 3. Verify installation:  
    ```bash
    java -version
    javac -version
    ```
+   
 
    <img width="581" height="221" alt="1" src="https://github.com/user-attachments/assets/44085355-a5d0-4d63-9826-4ac3add6962b" />
 
@@ -84,6 +103,10 @@ java -cp out edu.ccrm.cli.Main
 3. Add source folders (`src`) and packages (`edu.ccrm.*`).  
 4. Copy project files into `src`.  
 5. Run → `Main.java`.  
+
+<img width="672" height="709" alt="Screenshot4" src="https://github.com/user-attachments/assets/750c2c1a-a10f-45cb-9f1d-9a8dd14f2d64" />
+
+
 
 <img width="613" height="398" alt="2" src="https://github.com/user-attachments/assets/c34be52f-6858-43a0-b780-d9ee0e589714" />
 
