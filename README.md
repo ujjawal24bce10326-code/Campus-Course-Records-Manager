@@ -85,6 +85,8 @@ java -cp out edu.ccrm.cli.Main
 4. Copy project files into `src`.  
 5. Run → `Main.java`.  
 
+<img width="613" height="398" alt="2" src="https://github.com/user-attachments/assets/c34be52f-6858-43a0-b780-d9ee0e589714" />
+
 
 ---
 
